@@ -1,0 +1,13 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded">
+  <StackLayout orientation="vertical">
+
+    <Image src="res://logo" stretch="none" horizontalAlignment="center" />
+
+    <TextField text="{{ email }}" hint="Email Address" keyboardType="email" />
+    <TextField text="{{ password }}" hint="Password" secure="true" />
+
+    <Button text="Sign in" tap="signIn"/>
+    <Button text="Sign up for Groceries" cssClass="link" tap="register" />
+
+  </StackLayout>
+</Page>

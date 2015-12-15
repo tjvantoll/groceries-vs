@@ -1,0 +1,28 @@
+{
+  "ProjectName": "groceries_vs",
+  "ProjectGuid": "810d43ac-a03a-40a0-8daf-f4137578cf35",
+  "projectVersion": 1,
+  "AppIdentifier": "com.burke.groceriesvs",
+  "DisplayName": "groceries_vs",
+  "Author": "",
+  "Description": "groceries_vs",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "1.4.3",
+  "Framework": "NativeScript"
+}
