@@ -28,6 +28,7 @@
   <ItemGroup>
     <Content Include=".abignore" />
     <Content Include=".abproject" />
+    <Content Include="app\app.js" />
     <Content Include="app\App_Resources\Android\drawable-hdpi\logo.png">
       <SubType>Content</SubType>
     </Content>
@@ -46,6 +47,7 @@
     <Content Include="app\App_Resources\iOS\logo.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="app\platform.android.css" />
     <Content Include="app\platform.ios.css" />
     <Content Include="app\shared\config.js">
       <SubType>Content</SubType>
@@ -53,6 +55,10 @@
     <Content Include="app\shared\view-models\user-view-model.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="app\views\list\list.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\views\list\list.xml" />
     <Content Include="app\views\login\login.js">
       <SubType>Content</SubType>
     </Content>
@@ -63,7 +69,6 @@
     <Content Include="app\views\register\register.xml" />
     <Content Include="package.json" />
     <Content Include="app\app.css" />
-    <Content Include="app\app.js" />
     <Content Include="typings\tns-core-modules-schemas\tns.xsd" />
     <Content Include="typings\tns-core-modules\LICENSE" />
     <Content Include="typings\tns-core-modules\package.json" />
@@ -118,6 +123,7 @@
     <Content Include="app\App_Resources\iOS\icon@2x.png" />
     <TypeScriptCompile Include="app\shared\config.ts" />
     <TypeScriptCompile Include="app\shared\view-models\user-view-model.ts" />
+    <TypeScriptCompile Include="app\views\list\list.ts" />
     <TypeScriptCompile Include="app\views\login\login.ts" />
     <TypeScriptCompile Include="app\views\register\register.ts" />
     <TypeScriptCompile Include="typings\tns-core-modules\android17.d.ts" />
@@ -239,6 +245,7 @@
     <Folder Include="app\views\" />
     <Folder Include="app\shared\" />
     <Folder Include="app\views\login\" />
+    <Folder Include="app\views\list\" />
     <Folder Include="app\views\register\" />
     <Folder Include="app\views\password\" />
     <Folder Include="typings\" />
